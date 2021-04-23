@@ -9,3 +9,85 @@
 @import "map";
 @import "footer";
 @import "bootstrap-overrides";
+
+
+.alpha {
+    background-color: $gray-600;
+  }
+  
+  .text-mutedd {
+    color: yellow;
+  }
+  
+  .social-link:hover {
+    background-color: #79dfc1;
+  }
+  
+  .button-col {
+    background-color: #343a40;
+  }
+   
+  
+  .btn1 {
+    background-color: $gray-600;
+    color: black;
+  }
+  
+  .icon1 {
+    width: 140px;
+    border-radius: 5px;
+  }
+  
+  .icon1:hover, .icon2:hover {
+    clip-path: inset(2rem);
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+        clip-path: inset(0px);
+  }
+  
+  .icon2 {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  .icon2:hover, .icon1:hover {
+    animation: MoveUpDown 1s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .navigate {
+    background-color: $gray-700;
+  }
+  
+  .color2 {
+    background-color: $yelloww;
+  }
+  
+  @keyframes MoveUpDown {
+    100%, 50% {
+      bottom: 20px;
+    }
+    50% {
+      bottom: 20px;
+    }
+  }
+  
+  .color-boot {
+    background-color: #13795b;
+  }
+  
+  #footer {
+    background-color: black;
+  }
+  
+  .bodyy {
+    background: url(../backkk.webp) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
