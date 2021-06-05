@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>My Portfolio for -- Full Stack Web Developer</title>
+  <title>My Portfolio for -- FullStack Web Developer</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,10 +20,81 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper" class="navigate">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger text-decoration-none" href="#page-top">Coding Every Day :)</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Projects</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#services">Skills</a>
+      </li>
+
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#footer">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="mastheadd bg-info color-boot d-flex position-relative">
+    <div class="container py-5 color-boot text-center my-auto">
+      <h1 class="mb-1 text-light header1">Billo Diallo</h1>
+      <h3 class="mb-5 text-light header2">
+        <em>Full-Stack Web Developer</em>
+      </h3>
+     
+      <h3 class="text-center m-4 text-light">Follow me on </h3>
+      <ul class="list-inline mb-3">
+        <li class="list-inline-item it-links mx-3">
+          <a target="_blank" class=" social-link text-decoration-none rounded-circle text-white mr-3" href="https://www.linkedin.com/in/mabillodiallo/">
+            <i class="icon-social-linkedin it-icons"></i>
+            <p class="social-text">Linkedin</p>
+          </a>
+        </li>
+        <li class="list-inline-item it-links mx-3">
+          <a target="_blank" class="text-decoration-none rounded-circle text-white mr-3" href="https://twitter.com/BilloDi83547008">
+            <i class="icon-social-twitter it it-icons"></i>
+            <p>Twitter</p>
+          </a>
+        </li>
+        <li class="list-inline-item it-links mx-3">
+          <a target="_blank" class="social-link text-decoration-none rounded-circle text-white mr-3" href="mailto:billodiallonet@gmail.com">
+            <i class="icon-social-google it-icons"></i>
+            <p class="social-text">Email</p>
+          </a>
+        </li>
+        <li class="list-inline-item it-links mx-3">
+          <a target="_blank" class="social-link text-decoration-none rounded-circle text-white mr-3" href="https://github.com/billodiallo">
+            <i class="icon-social-github it it-icons"></i>
+            <p class="social-text">GitHub</p>
+          </a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    <div class="overlay"></div>
+  </header>
+
 
   <!-- Navigation -->
   <a class="menu-toggle rounded" href="#">
@@ -52,33 +123,80 @@
     </ul>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1 btn  text-white">Billo Diallo</h1>
-      <h3 class="mb-5">
-        <em class="mb-1  bg-info text-white">Full Stack Web Developer</em>
-      </h3>
-      <h5 class="m-3  w-25 bg-info"><span class="text-white ">E-mail: &nbsp&nbsp</span>billodiallonet@gmail.com</h5>
-      <h5 class="m-3 w-25 bg-info"><span class="text-white">Tel: &nbsp&nbsp</span>+254 742 19 86 35</h5>
-      <h6 class="m-3  w-25 bg-info"><span class="text-white">Location: &nbsp&nbsp</span>Nairobi_Kenya</h6>
-      <a class="m-3 btn btn-primary btn-xl js-scroll-trigger bg-info" href="#about">Find Out More</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
 
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2 class="btn bg-info text-white w-25">My Journey!</h2>
-          <p class="lead mb-5">I have acquired strong technical skills from my previous  working experience in the IT department and Web development. Currently seeking a job in a Web development position with a progressive environment where I can enhance and utilize my skills in Front-end  and Back-end .
-            <a href="https://github.com/billodiallo">Find more</a>!</p>
-          <a class="btn bg-info text-white" href="#services">Skills and Technologies</a>
+  <!-- Portfolio -->
+<section class="content-section bg-light" id="portfolio">
+  <div class="container">
+    <div class="content-section-heading text-center">
+      <h3 class="text-secondary mb-0"></h3>
+      <h2 class="mb-5 btn bg-info text-white">Recent Projects</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 my-1">
+        <div class="card" style="height: 480px;">
+          <img src="img/dalila1.JPG" style="height: 250px;" class="card-img-top" alt="...">
+          <div class="card-body position-relative">
+            <h5 class="card-title">RPG GAME</h5>
+            <p class="card-text">  RPG game is a game built with Phaser 3. The main inspiration was from multiplayer online games. In this particular game, the action is focused on collecting as many chests as possible while having to combat against monsters. </p>
+            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-1">
+              <a href="https://github.com/billodiallo/RPG-GAME"  target="_blank" class="btn bg-info text-white  w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
+              <a href="https://billodiallo.github.io/RPG-GAME/" target="_blank" class="btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 my-1">
+        <div class="card" style="height: 480px;">
+          <img src="img/restaurant.jpg" style="height: 250px;" class="card-img-top img-fluid" alt="...">
+          <div class="card-body position-relative">
+            <h5 class="card-title"> Restaurant page </h5>
+            <p class="card-text">A bare-bones website for a restaurant with homepage, menu page and contact page created by using Javascript (ES6). </p></br></br>
+            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-3">
+              <a href="https://github.com/billodiallo/Restaurant_page" target="_blank" class="btn bg-info text-white  w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
+              <a href="https://billodiallo.github.io/Restaurant_page/" target="_blank" class="btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 my-1">
+        <div class="card" style="height: 480px;">
+          <img src="img/socialmedia.JPG" style="height: 250px;" class="card-img-top img-fluid" alt="...">
+          <div class="card-body position-relative">
+            <h5 class="card-title">Social media App</h5>
+            <p class="card-text">This is Social media website where user can sign up, sign ing, Comment ,like a post , send a friend request , accept or reject it.
+            </br></br></br>
+            </p>
+            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-1">
+              <a href="https://github.com/billodiallo/social-media_app" target="_blank" class="btn bg-info text-white w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
+              <a href="https://peaceful-meadow-89445.herokuapp.com/users/sign_in" target="_blank" class=" btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 my-1">
+        <div class="card" style="height: 480px;">
+          <img src="img/singup2.JPG" style="height: 250px;" class="card-img-top img-fluid" alt="...">
+          <div class="card-body position-relative">
+            <h5 class="card-title">Life Style Article</h5>
+            <p class="card-text">This is  my Capstone project  on Rails module.It's Lifestyle article where  
+              User can create football article and give title, description and add photo and other users 
+              can vote for the football article they like football.</p>
+            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-1">
+              <a href="https://github.com/billodiallo/billodiallo-lifestyle_articles" class="btn bg-info text-white  w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
+              <a href="https://polar-woodland-81679.herokuapp.com/" target="_blank" class=" btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+          
+       
   </section>
 
   <!-- Services -->
@@ -114,7 +232,7 @@
           <img class='icon1 shadow' src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white' ><br><br>
           <img class='icon1 shadow' src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt=""><br><br>
           <img  class='icon1 shadow' src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt=""><br><br>
-          <img class='icon1 shadow' src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt=""><br><br>
+          
          
           
 
@@ -124,86 +242,15 @@
   </section>
 
  
-<!-- Portfolio -->
-<section class="content-section bg-light" id="portfolio">
-  <div class="container">
-    <div class="content-section-heading text-center">
-      <h3 class="text-secondary mb-0"></h3>
-      <h2 class="mb-5 btn bg-info text-white">Recent Projects</h2>
-    </div>
-
-    <div class="row">
-      <div class="col-12 col-md-6 my-1">
-        <div class="card" style="height: 480px;">
-          <img src="img/dalila1.JPG" style="height: 250px;" class="card-img-top" alt="...">
-          <div class="card-body position-relative">
-            <h5 class="card-title">RPG GAME</h5>
-            <p class="card-text"> It is an RPG game built with Phaser3. The main inspiration was from multiplayer online games. In this particular game the action is mainly focused on collecting as many chests as possible while having to combat against monsters. </p>
-            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-1">
-              <a href="https://github.com/billodiallo/RPG-GAME"  target="_blank" class="btn bg-info text-white  w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
-              <a href="https://billodiallo.github.io/RPG-GAME/" target="_blank" class="btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 my-1">
-        <div class="card" style="height: 480px;">
-          <img src="img/restaurant.jpg" style="height: 250px;" class="card-img-top img-fluid" alt="...">
-          <div class="card-body position-relative">
-            <h5 class="card-title"> Restaurant page </h5>
-            <p class="card-text">A website for a restaurant with homepage, menu page and contact page created by using Javascript (ES6). </p></br></br>
-            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-3">
-              <a href="https://github.com/billodiallo/Restaurant_page" target="_blank" class="btn bg-info text-white  w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
-              <a href="https://billodiallo.github.io/Restaurant_page/" target="_blank" class="btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 my-1">
-        <div class="card" style="height: 480px;">
-          <img src="img/socialmedia.JPG" style="height: 250px;" class="card-img-top img-fluid" alt="...">
-          <div class="card-body position-relative">
-            <h5 class="card-title">Social media App</h5>
-            <p class="card-text">This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
-            </br></br></br>
-            </p>
-            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-1">
-              <a href="https://github.com/billodiallo/social-media_app" target="_blank" class="btn bg-info text-white w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
-              <a href="https://peaceful-meadow-89445.herokuapp.com/users/sign_in" target="_blank" class=" btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 my-1">
-        <div class="card" style="height: 480px;">
-          <img src="img/singup2.JPG" style="height: 250px;" class="card-img-top img-fluid" alt="...">
-          <div class="card-body position-relative">
-            <h5 class="card-title">Life Style Article</h5>
-            <p class="card-text">This project is the Capstone of the Microverse curriculum at the end of the Ruby on Rails module. User can create football article and give title, description and a photo about it and other users can vote for the football article they like football lifestyle article.</p>
-            <div class="w-100 d-flex flex-column flex-md-row position-absolute bottom-0 start-0 mb-1">
-              <a href="https://github.com/billodiallo/billodiallo-lifestyle_articles" class="btn bg-info text-white  w-25 my-1 my-md-0 mx-md-1 mx-auto">GitHub</a>
-              <a href="https://polar-woodland-81679.herokuapp.com/" target="_blank" class=" btn bg-info text-white  w-25 mx-md-1 mx-auto">Live link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
-
 
   <!-- Footer -->
-  <div class="container text-center">
-    <h2 class="mb-5 btn bg-info text-white">CONTACT</h2>
-
-  </div>
+  
  
   <section id="contact ">
-    <footer class="footer text-center text-white bg-info">
+
+    <footer id="footer" class="footer text-center text-white bg-info">
       <div class="container">
+        <h3 class="text-center m-4 text-light">Contact me via</h3>
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/mabillodiallo/">
